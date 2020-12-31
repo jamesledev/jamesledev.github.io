@@ -17,7 +17,7 @@ function App() {
       const response = await axios({
         method: 'get',
         url:
-          'http://api.openweathermap.org/data/2.5/weather?q=northampton&appid=27e500df9db7db7c55da399ff11d427e&units=metric',
+          'https://api.openweathermap.org/data/2.5/weather?q=northampton&appid=27e500df9db7db7c55da399ff11d427e&units=metric',
       });
       setWeather(response.data);
     }
