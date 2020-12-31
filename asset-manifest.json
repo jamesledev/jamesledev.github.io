@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jamesledev.github.io/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/jamesledev.github.io/static/js/main.5a186e55.chunk.js",
+    "main.js.map": "/jamesledev.github.io/static/js/main.5a186e55.chunk.js.map",
+    "runtime-main.js": "/jamesledev.github.io/static/js/runtime-main.cb4034d3.js",
+    "runtime-main.js.map": "/jamesledev.github.io/static/js/runtime-main.cb4034d3.js.map",
+    "static/js/2.374611a8.chunk.js": "/jamesledev.github.io/static/js/2.374611a8.chunk.js",
+    "static/js/2.374611a8.chunk.js.map": "/jamesledev.github.io/static/js/2.374611a8.chunk.js.map",
+    "static/js/3.e511dfbf.chunk.js": "/jamesledev.github.io/static/js/3.e511dfbf.chunk.js",
+    "static/js/3.e511dfbf.chunk.js.map": "/jamesledev.github.io/static/js/3.e511dfbf.chunk.js.map",
+    "index.html": "/jamesledev.github.io/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/jamesledev.github.io/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.374611a8.chunk.js.LICENSE.txt": "/jamesledev.github.io/static/js/2.374611a8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/jamesledev.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb4034d3.js",
+    "static/js/2.374611a8.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.5a186e55.chunk.js"
+  ]
+}
