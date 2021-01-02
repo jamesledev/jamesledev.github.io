@@ -94,9 +94,27 @@ ul#horizontal-list li {
   object-fit: cover;
   max-width: 500px;
 }
+/* .portfolioCentre {
+  width: 100%;
+  border: 1px solid blue;
+  text-align: center;
+  display: inline-block; */
 
-.portfolioPics {
-  max-width: 300px;
+.portfolioFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.portfolioImage {
+  max-width: 400px;
+}
+.firstDiagram {
+  grid-area: firstOne;
+}
+.secondDiagram {
+  grid-area: firstTwo;
 }
 a {
   color: inherit;
@@ -106,6 +124,13 @@ a {
 .cvImg {
   box-shadow: 10px 10px 5px grey;
 }
+.myModal {
+  color: black;
+}
+.myModal h2 {
+  text-transform: capitalize;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     width: 100%;

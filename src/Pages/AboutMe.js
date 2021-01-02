@@ -10,7 +10,7 @@ function About() {
       </div>
       <div className="aboutMeBox">
         <div>
-          <img className="picture" src={Me} />
+          <img className="picture" src={Me} alt="some alt text" />
         </div>
         <div>
           <br />
