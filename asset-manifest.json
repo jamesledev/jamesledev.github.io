@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/jamesledev.github.io/static/css/main.1a15cdde.chunk.css",
-    "main.js": "/jamesledev.github.io/static/js/main.e551662c.chunk.js",
-    "main.js.map": "/jamesledev.github.io/static/js/main.e551662c.chunk.js.map",
-    "runtime-main.js": "/jamesledev.github.io/static/js/runtime-main.e989b778.js",
-    "runtime-main.js.map": "/jamesledev.github.io/static/js/runtime-main.e989b778.js.map",
+    "main.css": "/jamesledev.github.io/static/css/main.30cdcf2e.chunk.css",
+    "main.js": "/jamesledev.github.io/static/js/main.a98a337c.chunk.js",
+    "main.js.map": "/jamesledev.github.io/static/js/main.a98a337c.chunk.js.map",
+    "runtime-main.js": "/jamesledev.github.io/static/js/runtime-main.fee56281.js",
+    "runtime-main.js.map": "/jamesledev.github.io/static/js/runtime-main.fee56281.js.map",
     "static/css/2.8078bc71.chunk.css": "/jamesledev.github.io/static/css/2.8078bc71.chunk.css",
-    "static/js/2.cd9461a7.chunk.js": "/jamesledev.github.io/static/js/2.cd9461a7.chunk.js",
-    "static/js/2.cd9461a7.chunk.js.map": "/jamesledev.github.io/static/js/2.cd9461a7.chunk.js.map",
-    "static/js/3.d5de7b79.chunk.js": "/jamesledev.github.io/static/js/3.d5de7b79.chunk.js",
-    "static/js/3.d5de7b79.chunk.js.map": "/jamesledev.github.io/static/js/3.d5de7b79.chunk.js.map",
+    "static/js/2.8a4f3cf9.chunk.js": "/jamesledev.github.io/static/js/2.8a4f3cf9.chunk.js",
+    "static/js/2.8a4f3cf9.chunk.js.map": "/jamesledev.github.io/static/js/2.8a4f3cf9.chunk.js.map",
+    "static/js/3.7f538cd7.chunk.js": "/jamesledev.github.io/static/js/3.7f538cd7.chunk.js",
+    "static/js/3.7f538cd7.chunk.js.map": "/jamesledev.github.io/static/js/3.7f538cd7.chunk.js.map",
     "index.html": "/jamesledev.github.io/index.html",
     "static/css/2.8078bc71.chunk.css.map": "/jamesledev.github.io/static/css/2.8078bc71.chunk.css.map",
-    "static/css/main.1a15cdde.chunk.css.map": "/jamesledev.github.io/static/css/main.1a15cdde.chunk.css.map",
-    "static/js/2.cd9461a7.chunk.js.LICENSE.txt": "/jamesledev.github.io/static/js/2.cd9461a7.chunk.js.LICENSE.txt"
+    "static/css/main.30cdcf2e.chunk.css.map": "/jamesledev.github.io/static/css/main.30cdcf2e.chunk.css.map",
+    "static/js/2.8a4f3cf9.chunk.js.LICENSE.txt": "/jamesledev.github.io/static/js/2.8a4f3cf9.chunk.js.LICENSE.txt",
+    "static/media/CV-JamesLe.5ab86bef.pdf": "/jamesledev.github.io/static/media/CV-JamesLe.5ab86bef.pdf",
+    "static/media/cv.0faa15f8.png": "/jamesledev.github.io/static/media/cv.0faa15f8.png",
+    "static/media/genshin.bb4bf13e.png": "/jamesledev.github.io/static/media/genshin.bb4bf13e.png",
+    "static/media/me.10372844.jpg": "/jamesledev.github.io/static/media/me.10372844.jpg",
+    "static/media/pokemon.78030c03.png": "/jamesledev.github.io/static/media/pokemon.78030c03.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e989b778.js",
+    "static/js/runtime-main.fee56281.js",
     "static/css/2.8078bc71.chunk.css",
-    "static/js/2.cd9461a7.chunk.js",
-    "static/css/main.1a15cdde.chunk.css",
-    "static/js/main.e551662c.chunk.js"
+    "static/js/2.8a4f3cf9.chunk.js",
+    "static/css/main.30cdcf2e.chunk.css",
+    "static/js/main.a98a337c.chunk.js"
   ]
 }
