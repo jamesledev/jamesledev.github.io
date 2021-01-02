@@ -2,6 +2,7 @@ import './App.css';
 import StickyNav from './components/stickyNav';
 import AboutMe from './components/AboutMe';
 import RecentWork from './components/RecentWork';
+import React from 'react';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <StickyNav />
 
       <AboutMe />
+
       <RecentWork />
     </>
   );

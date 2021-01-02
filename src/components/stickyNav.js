@@ -7,8 +7,12 @@ class stickyNav extends Component {
       <Sticky>
         <header className="table">
           <ul id="horizontal-list">
-            <li>About Me </li>
-            <li>Recent Work </li>
+            <li>
+              <a href="#about">About Me</a>
+            </li>
+            <li>
+              <a href="#recent">Recent Work</a>
+            </li>
             <li>Contacts</li>
           </ul>
         </header>
