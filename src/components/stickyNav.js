@@ -16,24 +16,26 @@ function stickyNav() {
         <header className="table">
           <ul id="horizontal-list">
             <img className="logo" src={Logo} alt="JL dev" />
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About Me</Link>
-            </li>
-            <li>
-              <Link to="/portfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="/cv">CV</Link>
-            </li>
+            <div>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About Me</Link>
+              </li>
+              <li>
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link to="/cv">CV</Link>
+              </li>
+            </div>
             <div>
               <a href="https://github.com/jamesledev" target="_blank">
-                <img className="github" src={Github} />
+                <img className="github" src={Github} alt="Github Profile" />
               </a>
               <a href="https://www.linkedin.com/in/jamesle-mt" target="_blank">
-                <img className="linkedin" src={LinkedIn} />
+                <img className="linkedin" src={LinkedIn} alt="Linked-in" />
               </a>
             </div>
           </ul>
