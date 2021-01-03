@@ -87,9 +87,9 @@ ul#horizontal-list li {
 }
 
 .aboutMeBox {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-gap: 2%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .aboutMe {
   margin: 50px;
