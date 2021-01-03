@@ -40,12 +40,8 @@ body {
   }
 }
 
-.container {
-  width: 1160px;
-  margin: 0 auto;
-}
 .navBox {
-  max-height: 16vh;
+  max-height: 126px;
   height: 16vh;
 }
 .headerBox {
@@ -165,9 +161,10 @@ a {
   font-size: 25px;
 }
 
-@media screen and (max-width: 1024px) {
-  .container {
-    width: 100%;
-    border: none;
+@media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
