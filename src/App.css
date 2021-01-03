@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  background-color: #5c6bc0;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 20px;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 .headerBox {
   margin: 0 auto;
-  background-color: white;
+  background-color: #c5cae9;
   color: black;
   width: auto;
 }
@@ -82,13 +82,18 @@ ul#horizontal-list li {
   flex-direction: column;
   justify-content: flex-start;
 }
-.heading {
+.heading,
+.headingText {
   font-size: 60px;
   font-weight: 600;
   text-align: center;
   line-height: 1.5;
   margin: auto;
 }
+.heading {
+  font-family: 'Titillium Web', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 .headingText {
   font-size: 15px;
 }
@@ -113,13 +118,18 @@ ul#horizontal-list li {
   flex-wrap: wrap;
 }
 .aboutMeText {
-  margin: 50px;
   max-width: 700px;
+  text-align: left;
+}
+
+.aboutMePicture,
+.aboutMeTextBox {
+  padding: 30px;
 }
 .picture {
   width: 100%;
   object-fit: cover;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .portfolioFlex {
@@ -131,6 +141,11 @@ ul#horizontal-list li {
 }
 .portfolioImage {
   max-width: 400px;
+  padding: 20px;
+}
+.igIcon {
+  max-width: 60px;
+  float: right;
 }
 .firstDiagram {
   grid-area: firstOne;
@@ -144,7 +159,7 @@ a {
 }
 
 .cvImg {
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 0px 0px 5px grey;
 }
 .myModal {
   color: black;
@@ -160,8 +175,39 @@ a {
   left: 10px;
   font-size: 25px;
 }
-.myModal img {
+.portfolioImageModal {
   max-width: 600px;
+}
+.githubModal {
+  max-width: 50px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 420px;
+  height: 255.95px;
+  opacity: 0;
+  transition: 0.45s ease;
+  background-color: black;
+}
+
+.overlayContainer:hover .overlay {
+  opacity: 0.7;
+}
+.overlayContainer {
+  position: relative;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -170,10 +216,10 @@ a {
     display: inline;
   }
   .myModal img {
-    max-width: 600px;
+    max-width: 500px;
   }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (max-width: 600px) {
   .cvImg {
     max-width: 300px;
