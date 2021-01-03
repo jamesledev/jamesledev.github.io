@@ -6,8 +6,8 @@ Modal.setAppElement('#root');
 
 export default function Item(props) {
   const {
-    name,
     imgLocation,
+    name,
     briefDescription,
     description = '',
     githubLink = '',
@@ -78,15 +78,17 @@ export default function Item(props) {
             src={imgLocation}
             alt={altText}
           />
-          <div>{description}</div>
-          <br />
-          {gitHubText}
-          {linkText}
-          <br />
-          <div>Any feedback would be amazing!</div>
-          <div>
-            {githubIcon}
-            {linkIcon}
+          <div className="textboxModal">
+            <div>{description}</div>
+            <br />
+            {gitHubText}
+            {linkText}
+            <br />
+            <div>Any feedback would be amazing!</div>
+            <div>
+              {githubIcon}
+              {linkIcon}
+            </div>
           </div>
         </div>
       </Modal>

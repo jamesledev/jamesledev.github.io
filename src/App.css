@@ -181,6 +181,9 @@ a {
 .githubModal {
   max-width: 50px;
 }
+.textboxModal {
+  margin: 20px;
+}
 .overlay {
   position: absolute;
   top: 0;
