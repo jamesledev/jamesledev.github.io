@@ -6,8 +6,8 @@ Modal.setAppElement('#root');
 
 export default function Item(props) {
   const {
-    imgLocation,
     name,
+    imgLocation,
     briefDescription,
     description = '',
     githubLink = '',
@@ -54,12 +54,12 @@ export default function Item(props) {
       <div className={`overlayContainer ${name}-project`}>
         <img className={imageClasses} src={imgLocation} alt={altText} />
         <div
-          class="overlay"
+          className="overlay"
           onClick={() => {
             setIsOpen(name);
           }}
         >
-          <div class="text">{briefDescription}</div>
+          <div className="text">{briefDescription}</div>
         </div>
       </div>
 

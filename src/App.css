@@ -41,8 +41,8 @@ body {
 }
 
 .navBox {
-  max-height: 126px;
-  height: 16vh;
+  max-height: 120px;
+  height: 10vh;
 }
 .headerBox {
   margin: 0 auto;
@@ -73,8 +73,9 @@ ul#horizontal-list li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 82vh;
+  height: 90.7vh;
   font-size: 1em;
+  background-color: #5c6bc0;
 }
 
 .cv {
@@ -195,6 +196,7 @@ a {
   opacity: 0;
   transition: 0.45s ease;
   background-color: black;
+  cursor: pointer;
 }
 
 .overlayContainer:hover .overlay {
