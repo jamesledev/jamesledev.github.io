@@ -15,11 +15,10 @@ function stickyNav() {
       <Sticky>
         <header className="table">
           <ul id="horizontal-list">
-            <img className="logo" src={Logo} alt="JL dev" />
+            <Link to="/">
+              <img className="logo" src={Logo} alt="JL dev" />
+            </Link>
             <div>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
               <li>
                 <Link to="/about">About Me</Link>
               </li>

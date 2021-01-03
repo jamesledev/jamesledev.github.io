@@ -59,38 +59,40 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   font-size: 1em;
 }
-
-.table {
-  margin: 0 auto;
-  width: auto;
-  background-color: white;
-  color: black;
+.navBox {
+  max-height: 160px;
 }
-.logo {
-  max-width: 120px;
-}
-
-.github,
-.linkedin {
-  max-width: 40px;
-  margin: 5px;
-}
-
 ul#horizontal-list {
   list-style: none;
-  padding: 20px 0;
   margin: 0px;
+  padding: 0;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   justify-content: space-around;
 }
 ul#horizontal-list li {
   display: inline;
   margin: 15px;
+}
+.table {
+  margin: 0 auto;
+  width: auto;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 10vh;
+}
+.logo {
+  width: 120px;
+}
+
+.github,
+.linkedin {
+  max-width: 40px;
+  margin: 5px;
 }
 
 .one {
