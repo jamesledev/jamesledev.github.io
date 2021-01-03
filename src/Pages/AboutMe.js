@@ -7,7 +7,9 @@ function About() {
     <div className="aboutMe">
       <div className="headingContainer">
         <h1 className="heading">James Le</h1>
-        <h1 className="headingText">I am unemployed :)</h1>
+        <h1 className="headingText">
+          “If you don’t share someone’s pain, you can never understand them.”
+        </h1>
       </div>
       <div className="aboutMeBox">
         <div className="aboutMePicture">
