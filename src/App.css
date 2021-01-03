@@ -73,9 +73,8 @@ ul#horizontal-list li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90.7vh;
+  height: 90vh;
   font-size: 1em;
-  background-color: #5c6bc0;
 }
 
 .cv {
