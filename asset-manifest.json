@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.27253e1e.chunk.css",
-    "main.js": "/static/js/main.9e840345.chunk.js",
-    "main.js.map": "/static/js/main.9e840345.chunk.js.map",
+    "main.css": "/static/css/main.7ee1066a.chunk.css",
+    "main.js": "/static/js/main.bc1b592b.chunk.js",
+    "main.js.map": "/static/js/main.bc1b592b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.afc16c4b.js",
     "runtime-main.js.map": "/static/js/runtime-main.afc16c4b.js.map",
     "static/js/2.10d05364.chunk.js": "/static/js/2.10d05364.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.21f71d7b.chunk.js": "/static/js/3.21f71d7b.chunk.js",
     "static/js/3.21f71d7b.chunk.js.map": "/static/js/3.21f71d7b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.27253e1e.chunk.css.map": "/static/css/main.27253e1e.chunk.css.map",
+    "static/css/main.7ee1066a.chunk.css.map": "/static/css/main.7ee1066a.chunk.css.map",
     "static/js/2.10d05364.chunk.js.LICENSE.txt": "/static/js/2.10d05364.chunk.js.LICENSE.txt",
-    "static/media/CV-JamesLe.5ab86bef.pdf": "/static/media/CV-JamesLe.5ab86bef.pdf",
-    "static/media/cv.0faa15f8.png": "/static/media/cv.0faa15f8.png",
+    "static/media/CV-JamesLe.5e11f956.pdf": "/static/media/CV-JamesLe.5e11f956.pdf",
+    "static/media/cv.a4b03e1f.png": "/static/media/cv.a4b03e1f.png",
     "static/media/genshin.bb4bf13e.png": "/static/media/genshin.bb4bf13e.png",
     "static/media/me.10372844.jpg": "/static/media/me.10372844.jpg",
     "static/media/pokemon.78030c03.png": "/static/media/pokemon.78030c03.png"
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.afc16c4b.js",
     "static/js/2.10d05364.chunk.js",
-    "static/css/main.27253e1e.chunk.css",
-    "static/js/main.9e840345.chunk.js"
+    "static/css/main.7ee1066a.chunk.css",
+    "static/js/main.bc1b592b.chunk.js"
   ]
 }
