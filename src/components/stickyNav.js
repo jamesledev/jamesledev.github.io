@@ -19,7 +19,7 @@ function stickyNav() {
               <Link to="/">
                 <img className="logo" src={Logo} alt="JL dev" />
               </Link>
-              <div class="navButtons">
+              <div className="navButtons">
                 <li>
                   <Link to="/about">About Me</Link>
                 </li>
@@ -31,12 +31,17 @@ function stickyNav() {
                 </li>
               </div>
               <div>
-                <a href="https://github.com/jamesledev" target="_blank">
+                <a
+                  href="https://github.com/jamesledev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img className="github" src={Github} alt="Github Profile" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/jamesle-mt"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img className="linkedin" src={LinkedIn} alt="Linked-in" />
                 </a>

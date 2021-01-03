@@ -161,10 +161,15 @@ a {
   font-size: 25px;
 }
 
-@media screen and (max-width: 800px) {
-  .left,
-  .main,
-  .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media only screen and (max-width: 800px) {
+  .cvImg {
+    max-width: 600px;
+    display: inline;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .cvImg {
+    max-width: 300px;
   }
 }
