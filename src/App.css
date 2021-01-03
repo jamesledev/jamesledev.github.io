@@ -130,6 +130,14 @@ a {
 .myModal h2 {
   text-transform: capitalize;
 }
+.myModal .closeModal {
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 25px;
+}
 
 @media screen and (max-width: 1024px) {
   .container {

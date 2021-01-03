@@ -33,6 +33,9 @@ export default function Item(props) {
         contentLabel={`${name}Modal`}
       >
         <div className="myModal">
+          <span className="closeModal" onClick={closeModal}>
+            ✖️
+          </span>
           <h2>{name} Project</h2>
           <img className={imageClasses} src={imgLocation} alt={altText} />
           <div>I am a modal for {name}</div>
