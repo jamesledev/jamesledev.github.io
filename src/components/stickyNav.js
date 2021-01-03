@@ -12,34 +12,39 @@ import CV from '../Pages/Cv';
 function stickyNav() {
   return (
     <Router>
-      <Sticky>
-        <header className="table">
-          <ul id="horizontal-list">
-            <Link to="/">
-              <img className="logo" src={Logo} alt="JL dev" />
-            </Link>
-            <div>
-              <li>
-                <Link to="/about">About Me</Link>
-              </li>
-              <li>
-                <Link to="/portfolio">Portfolio</Link>
-              </li>
-              <li>
-                <Link to="/cv">CV</Link>
-              </li>
-            </div>
-            <div>
-              <a href="https://github.com/jamesledev" target="_blank">
-                <img className="github" src={Github} alt="Github Profile" />
-              </a>
-              <a href="https://www.linkedin.com/in/jamesle-mt" target="_blank">
-                <img className="linkedin" src={LinkedIn} alt="Linked-in" />
-              </a>
-            </div>
-          </ul>
-        </header>
-      </Sticky>
+      <div className="navBox">
+        <Sticky>
+          <header className="headerBox">
+            <ul id="horizontal-list">
+              <Link to="/">
+                <img className="logo" src={Logo} alt="JL dev" />
+              </Link>
+              <div class="navButtons">
+                <li>
+                  <Link to="/about">About Me</Link>
+                </li>
+                <li>
+                  <Link to="/portfolio">Portfolio</Link>
+                </li>
+                <li>
+                  <Link to="/cv">CV</Link>
+                </li>
+              </div>
+              <div>
+                <a href="https://github.com/jamesledev" target="_blank">
+                  <img className="github" src={Github} alt="Github Profile" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/jamesle-mt"
+                  target="_blank"
+                >
+                  <img className="linkedin" src={LinkedIn} alt="Linked-in" />
+                </a>
+              </div>
+            </ul>
+          </header>
+        </Sticky>
+      </div>
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />
       <Route path="/portfolio/" component={Portfolio} />

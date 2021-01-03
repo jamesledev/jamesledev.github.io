@@ -3,7 +3,7 @@ import Me from '../images/me.jpg';
 
 function About() {
   return (
-    <div>
+    <div className="aboutMe">
       <div className="container">
         <h1 className="heading">James Le</h1>
         <h1 className="headingText heading">I am unemployed :)</h1>
@@ -17,7 +17,7 @@ function About() {
           <br />
           <br />
           <br />
-          <div className="aboutMe">
+          <div className="aboutMeText">
             After deciding upon a programming type project for my master’s
             dissertation, I began my descent into the world of development.
             After self-teaching myself the basics of HTML, CSS and JavaScript I
