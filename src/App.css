@@ -55,6 +55,12 @@ body {
 .headingText {
   font-size: 15px;
 }
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
 .table {
   margin: 0 auto;
@@ -64,7 +70,7 @@ body {
 }
 ul#horizontal-list {
   list-style: none;
-  padding: 0px;
+  padding: 20px 0;
   margin: 0px;
 }
 ul#horizontal-list li {
@@ -94,11 +100,6 @@ ul#horizontal-list li {
   object-fit: cover;
   max-width: 500px;
 }
-/* .portfolioCentre {
-  width: 100%;
-  border: 1px solid blue;
-  text-align: center;
-  display: inline-block; */
 
 .portfolioFlex {
   display: flex;
