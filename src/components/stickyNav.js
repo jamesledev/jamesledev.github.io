@@ -21,7 +21,7 @@ function stickyNav() {
               </Link>
               <div className="navButtons">
                 <li>
-                  <Link to="/about">About Me</Link>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
                   <Link to="/portfolio">Portfolio</Link>

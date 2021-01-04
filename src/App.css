@@ -81,7 +81,12 @@ ul#horizontal-list li {
   background-size: cover;
   background-image: url('./images/background.jpg');
 }
-
+.homeChild {
+  background: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 2px solid black;
+}
 .cv {
   flex-wrap: nowrap;
   flex-direction: column;
