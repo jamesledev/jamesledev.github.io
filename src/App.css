@@ -86,10 +86,13 @@ ul#horizontal-list li {
   padding: 5px 10px;
   border: 2px solid black;
 }
-.cv {
+.cvText {
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: flex-start;
+}
+.cvPdf {
+  display: inline-block;
 }
 .heading,
 .headingText {

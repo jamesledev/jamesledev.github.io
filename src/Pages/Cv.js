@@ -1,15 +1,12 @@
-import cv from '../images/cv.png';
-import CVFile from '../files/CV-JamesLe.pdf';
+import Test from '../components/Pdf';
 
 function CV() {
   return (
-    <div className="cv">
+    <div className="cvText">
       <h1>CV</h1>
       <p>Click on the CV to view PDF</p>
       <div>
-        <a href={CVFile} target="_blank" rel="noreferrer">
-          <img className="cvImg" src={cv} alt="some alt text" />
-        </a>
+        <Test />
       </div>
     </div>
   );
