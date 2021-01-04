@@ -1,4 +1,4 @@
-import Sticky from 'react-sticky-el';
+// import Sticky from 'react-sticky-el';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Logo from '../images/Jem.svg';
 import Github from '../images/github.png';
@@ -13,42 +13,42 @@ function stickyNav() {
   return (
     <Router>
       <div className="navBox">
-        <Sticky>
-          <header className="headerBox">
-            <ul id="horizontal-list">
-              <Link to="/">
-                <img className="logo" src={Logo} alt="JL dev" />
-              </Link>
-              <div className="navButtons">
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="/portfolio">Portfolio</Link>
-                </li>
-                <li>
-                  <Link to="/cv">CV</Link>
-                </li>
-              </div>
-              <div>
-                <a
-                  href="https://github.com/jamesledev"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img className="github" src={Github} alt="Github Profile" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/jamesle-mt"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img className="linkedin" src={LinkedIn} alt="Linked-in" />
-                </a>
-              </div>
-            </ul>
-          </header>
-        </Sticky>
+        {/* <Sticky> */}
+        <header className="headerBox">
+          <ul id="horizontal-list">
+            <Link to="/">
+              <img className="logo" src={Logo} alt="JL dev" />
+            </Link>
+            <div className="navButtons">
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link to="/cv">CV</Link>
+              </li>
+            </div>
+            <div>
+              <a
+                href="https://github.com/jamesledev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="github" src={Github} alt="Github Profile" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jamesle-mt"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="linkedin" src={LinkedIn} alt="Linked-in" />
+              </a>
+            </div>
+          </ul>
+        </header>
+        {/* </Sticky> */}
       </div>
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />

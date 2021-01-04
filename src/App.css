@@ -42,7 +42,6 @@ body {
 }
 
 .navBox {
-  max-height: 120px;
 }
 .headerBox {
   margin: 0 auto;
@@ -73,7 +72,7 @@ ul#horizontal-list li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90.7vh;
+  height: 90vh;
   font-size: 1em;
   background-position: center;
   background-repeat: no-repeat;
