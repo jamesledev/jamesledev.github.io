@@ -26,7 +26,7 @@ function About() {
             to taking this passion further to become a more proficient and most
             importantly, an efficient engineer. <br /> <br />
             Outside of my passion for programming comes my want for clout on
-            instagram. Joking aside i spend most of my time playing games,
+            instagram. Joking aside I spend most of my time playing games,
             watching korean dramas or playing badminton. <br /> <br /> Feel free
             send an email my way with any questions! If there is one thing I can
             guarentee, its the speed at which I reply to emails at. <br />
