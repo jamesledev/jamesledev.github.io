@@ -38,7 +38,7 @@ function Portfolio() {
 
   return (
     <div className="portfolio">
-      <h1>Portfolio</h1>
+      <h1 className="heading">Portfolio</h1>
       <p>Click on the image to learn more.</p>
       <div className="porfolioCentre">
         <div className="portfolioFlex">{listProjects}</div>
