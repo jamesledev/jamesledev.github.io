@@ -4,12 +4,15 @@ import Typed from 'react-typed';
 export default class TypingCom extends Component {
   render() {
     return (
-      <Typed
-        strings={["Hi I'm James", 'Welcome to my website!✌️']}
-        typeSpeed={40}
-        backSpeed={50}
-        loop
-      />
+      <div className="blackText">
+        <Typed
+          strings={["Hi I'm James", 'Welcome to my website!✌️']}
+          typeSpeed={40}
+          backSpeed={50}
+          loop
+          font
+        />
+      </div>
     );
   }
 }
