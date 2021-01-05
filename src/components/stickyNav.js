@@ -1,4 +1,4 @@
-// import Sticky from 'react-sticky-el';
+
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Logo from '../images/Jem.svg';
 import Github from '../images/github.png';
@@ -13,7 +13,7 @@ function stickyNav() {
   return (
     <Router>
       <div className="navBox">
-        {/* <Sticky> */}
+
         <header className="headerBox">
           <ul id="horizontal-list">
             <Link to="/">
@@ -48,7 +48,7 @@ function stickyNav() {
             </div>
           </ul>
         </header>
-        {/* </Sticky> */}
+
       </div>
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />
