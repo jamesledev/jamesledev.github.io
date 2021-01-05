@@ -1,6 +1,7 @@
 import Item from '../components/image';
 import Pokemon from '../images/pokemon.png';
 import Genshin from '../images/genshin.png';
+import StickyNav from '../components/stickyNav';
 
 const projectsArray = [
   {
@@ -37,11 +38,14 @@ function Portfolio() {
   ));
 
   return (
-    <div className="portfolio">
-      <h1 className="heading">Portfolio</h1>
-      <p>Click on the image to learn more.</p>
-      <div className="porfolioCentre">
-        <div className="portfolioFlex">{listProjects}</div>
+    <div>
+      <StickyNav />
+      <div className="portfolio">
+        <h1 className="heading">Portfolio</h1>
+        <p>Click on the image to learn more.</p>
+        <div className="porfolioCentre">
+          <div className="portfolioFlex">{listProjects}</div>
+        </div>
       </div>
     </div>
   );
