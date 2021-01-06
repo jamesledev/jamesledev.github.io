@@ -1,4 +1,4 @@
-import Test from '../components/Pdf';
+import Pdf from '../components/Pdf';
 import StickyNav from '../components/stickyNav';
 
 function CV() {
@@ -9,7 +9,7 @@ function CV() {
         <h1 className="heading">CV</h1>
         <p>Click on the CV to view PDF</p>
         <div>
-          <Test />
+          <Pdf />
         </div>
       </div>
     </div>

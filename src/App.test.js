@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('Run home page', () => {
+  it('runs home page successfully', () => {
+    const { container } = render(<App />);
+    const homePage = container.querySelector('.home');
+    expect(homePage).not.toBeNull();
+  });
+  it('not runs home page successfully', () => {
+    const { container } = render(<App />);
+    const homePage = container.querySelector('.notOnHomePage');
+    expect(homePage).toBeNull();
+  });
 });

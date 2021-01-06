@@ -2,7 +2,10 @@ import { useState } from 'react';
 import Modal from 'react-modal';
 import Github from '../images/github.png';
 import webIcon from '../images/internet.png';
-Modal.setAppElement('#root');
+
+if (document.querySelector('#root')) {
+  Modal.setAppElement('#root');
+}
 
 export default function Item(props) {
   const {
