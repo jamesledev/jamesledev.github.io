@@ -75,7 +75,7 @@ export default function Item(props) {
           <span className="closeModal" onClick={closeModal}>
             ✖️
           </span>
-          <h2>{name} Project</h2>
+          <h2>{name}</h2>
           <img
             className={`portfolioImageModal ${imageClasses}`}
             src={imgLocation}

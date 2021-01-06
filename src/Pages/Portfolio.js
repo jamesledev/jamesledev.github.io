@@ -1,11 +1,21 @@
 import Item from '../components/image';
 import Pokemon from '../images/pokemon.png';
 import Genshin from '../images/genshin.png';
+import Saigon from '../images/saigon.png';
 import StickyNav from '../components/stickyNav';
 
 const projectsArray = [
   {
-    name: 'genshin',
+    name: 'Eat Saigon Restaurant Website',
+    imgLocation: Saigon,
+    briefDescription: 'Eat Saigon Restaurant Website',
+    description:
+      'Saigon Vietnamese Restaurant is the restaurant where I worked during my teenage years, it was owned by my family and so of course I was forced to work there… I needed practise building websites on React.js and so I borrowed the photos that we took before and created this website in one day. It is also a responsive design and so works across other media sizes. ',
+    githubLink: 'https://github.com/jamesledev/eatsaigon-site',
+    link: '',
+  },
+  {
+    name: 'Genshin Impact Project',
     imgLocation: Genshin,
     briefDescription: 'Genshin Impact Planner on Express',
     description:
@@ -14,11 +24,11 @@ const projectsArray = [
     link: 'https://genshin-impact-site.herokuapp.com/',
   },
   {
-    name: 'pokemon',
+    name: 'Pokedex Project',
     imgLocation: Pokemon,
     briefDescription: 'Pokemon-api on Express',
     description:
-      'This was the first project I attempted after taking a multitude of Skillshare courses. Using express on node.js I created a pokedex (Pokemon info bank) and an item bank by using axios to request info via request/promise and asych/await from a pokemon-api. As this is my first ever project there is a lot lacking in the CSS department, however, in the short time it took me to complete the project my back-end JS and css skills rose exponentially.',
+      'This was the first project I attempted after taking a multitude of Skillshare courses. Using express on node.js I created a pokedex (Pokemon info bank) and an item bank by using axios to request info via request/promise and async/await from a pokemon-api. As this is my first ever project there is a lot lacking in the CSS department, however, in the short time it took me to complete the project my back-end JS and css skills rose exponentially.',
     githubLink: 'https://github.com/jamesledev/pokemon-api',
     link: 'https://james-pokedex.herokuapp.com/',
   },

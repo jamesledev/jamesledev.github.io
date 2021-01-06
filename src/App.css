@@ -47,10 +47,11 @@ ul#horizontal-list li {
   height: 90vh;
   font-size: 1em;
 }
+
 .homeChild {
   background: white;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 7px 10px;
   border: 2px solid black;
 }
 .cvText {
@@ -85,10 +86,6 @@ ul#horizontal-list li {
 
 .one {
   height: 1000px;
-}
-.alice-carousel__prev-btn,
-.alice-carousel__next-btn {
-  display: none !important;
 }
 
 .aboutMeBox {
