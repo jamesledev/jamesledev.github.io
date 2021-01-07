@@ -23,12 +23,16 @@ export default function Test() {
   function nextPage() {
     changePage(1);
   }
-
+  const height = 1000;
   return (
     <div className="cvPdf">
-      <Document file={CVFile} onLoadSuccess={onDocumentLoadSuccess}>
+      <Document
+        file={CVFile}
+        onLoadSuccess={onDocumentLoadSuccess}
+        renderMode="svg"
+      >
         <a href={CVFile} target="_blank" rel="noreferrer">
-          <Page pageNumber={pageNumber} />
+          <Page pageNumber={pageNumber} height={height} />
         </a>
       </Document>
 

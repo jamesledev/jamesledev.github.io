@@ -198,6 +198,14 @@ a {
   .myModal img {
     max-width: 500px;
   }
+  .menu .react-pdf__Page__svg {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .menu svg {
+    width: 100% !important;
+    height: auto !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
