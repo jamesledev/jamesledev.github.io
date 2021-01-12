@@ -198,21 +198,29 @@ a {
   .myModal img {
     max-width: 500px;
   }
-  .menu .react-pdf__Page__svg {
+  .cvPdf .react-pdf__Page__svg {
     width: 100% !important;
     height: auto !important;
   }
-  .menu svg {
+  .cvPdf svg {
     width: 100% !important;
     height: auto !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .cvImg {
-    max-width: 300px;
-  }
+@media only screen and (max-width: 400px) {
   .myModal img {
     max-width: 300px;
+  }
+  .cvPdf .react-pdf__Page__svg {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .cvPdf svg {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .logo {
+    width: 80px;
   }
 }
