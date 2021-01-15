@@ -2,7 +2,7 @@ import Item from '../components/image';
 import Pokemon from '../images/pokemon.png';
 import Genshin from '../images/genshin.png';
 import Saigon from '../images/saigon.png';
-import ECommerce from '../images/ecommerce';
+import ECommerce from '../images/ecommerce.png';
 import StickyNav from '../components/stickyNav';
 
 const projectsArray = [
