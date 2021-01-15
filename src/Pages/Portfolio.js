@@ -2,9 +2,19 @@ import Item from '../components/image';
 import Pokemon from '../images/pokemon.png';
 import Genshin from '../images/genshin.png';
 import Saigon from '../images/saigon.png';
+import ECommerce from '../images/ecommerce';
 import StickyNav from '../components/stickyNav';
 
 const projectsArray = [
+  {
+    name: 'E-Commerce-Website',
+    imgLocation: ECommerce,
+    briefDescription: 'E-Commerce site using Commerce.js',
+    description:
+      'This E-Commerce app is the biggest project I have created to date. Using commerce.js and stripe I was able to create a fully functional site, although its all done in sandbox and no payments happen, I still do receive an email notification if anyone tries to buy anything. As it was a big project with many components, I of course encountered many bugs as well as errors, but they were mostly resolved. It is my first time also using a CSS framework, using material-ui made creating the app incredibly easier and for the most part was already small media friendly. ',
+    githubLink: 'https://github.com/jamesledev/e-commerce-site',
+    link: 'https://jamesledev-ecommerce.netlify.app/',
+  },
   {
     name: 'Eat Saigon Restaurant Website',
     imgLocation: Saigon,
@@ -12,7 +22,7 @@ const projectsArray = [
     description:
       'Saigon Vietnamese Restaurant is the restaurant where I worked during my teenage years, it was owned by my family and so of course I was forced to work there… I needed practise building websites on React.js and so I borrowed the photos that we took before and created this website in one day. It is also a responsive design and so works across other media sizes. ',
     githubLink: 'https://github.com/jamesledev/eatsaigon-site',
-    link: '',
+    link: 'https://eatsaigon.netlify.app',
   },
   {
     name: 'Genshin Impact Project',
