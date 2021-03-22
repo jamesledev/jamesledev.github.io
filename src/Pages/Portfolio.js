@@ -27,7 +27,7 @@ const projectsArray = [
   {
     name: 'Genshin Impact Project',
     imgLocation: Genshin,
-    briefDescription: 'Genshin Impact Planner on Express',
+    briefDescription: 'Genshin Impact Planner on Express & Next.js',
     description:
       'Genshin Impact is a game that I have played essentially from release. I wanted to find a website that would allow me to plan out visual build paths for my characters. It being a relatively new game however, resulted in a lack of fan made websites, and so I decided to build it myself. There were, however, text-only build paths that I could as references in my project. By using a google-sheets-api I was able to extract the information which would then be used as the guide alongside a more visual part where the user would have the ability to drag images corresponding to the guide to designated areas. This was done by using a plug-in called draggable and was built mainly on express, node.js.',
     githubLink: 'https://github.com/jamesledev/genshin-impact-site',
