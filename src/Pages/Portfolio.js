@@ -4,11 +4,12 @@ import Genshin from '../images/genshin.png';
 import Saigon from '../images/saigon.png';
 import ECommerce from '../images/ecommerce.png';
 import StickyNav from '../components/stickyNav';
+import GenshinWIP from '../images/genshinWIP.png';
 
 const projectsArray = [
   {
     name: 'Genshin Impact Project No. 2',
-    imgLocation: Genshin,
+    imgLocation: GenshinWIP,
     briefDescription: 'Genshin Impact Planner on Next.js (Work In Progress) ',
     description:
       'This follows the exact same concept at the other genshin impact project except this time on Next.js.',
