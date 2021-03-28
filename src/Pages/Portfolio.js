@@ -14,7 +14,7 @@ const projectsArray = [
     description:
       'This follows the exact same concept at the other genshin impact project except this time on Next.js.',
     githubLink: 'https://github.com/jamesledev/genshin-impact-next-site',
-    link: 'https://genshin-impact-site-site.herokuapp.com/',
+    link: 'https://genshin-impact-next-site.herokuapp.com/',
   },
   {
     name: 'E-Commerce-Website',
