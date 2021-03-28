@@ -7,6 +7,15 @@ import StickyNav from '../components/stickyNav';
 
 const projectsArray = [
   {
+    name: 'Genshin Impact Project No. 2',
+    imgLocation: Genshin,
+    briefDescription: 'Genshin Impact Planner on Next.js (Work In Progress) ',
+    description:
+      'This follows the exact same concept at the other genshin impact project except this time on Next.js.',
+    githubLink: 'https://github.com/jamesledev/genshin-impact-next-site',
+    link: 'https://genshin-impact-site-site.herokuapp.com/',
+  },
+  {
     name: 'E-Commerce-Website',
     imgLocation: ECommerce,
     briefDescription: 'E-Commerce site using Commerce.js',
@@ -27,9 +36,9 @@ const projectsArray = [
   {
     name: 'Genshin Impact Project',
     imgLocation: Genshin,
-    briefDescription: 'Genshin Impact Planner on Express & Next.js',
+    briefDescription: 'Genshin Impact Planner on Express',
     description:
-      'Genshin Impact is a game that I have played essentially from release. I wanted to find a website that would allow me to plan out visual build paths for my characters. It being a relatively new game however, resulted in a lack of fan made websites, and so I decided to build it myself. There were, however, text-only build paths that I could as references in my project. By using a google-sheets-api I was able to extract the information which would then be used as the guide alongside a more visual part where the user would have the ability to drag images corresponding to the guide to designated areas. This was done by using a plug-in called draggable and was built mainly on express, node.js.',
+      'Genshin Impact is a game that I have played essentially from release. I wanted to find a website that would allow me to plan out visual build paths for my characters. It being a relatively new game however, resulted in a lack of fan made websites, and so I decided to build it myself. There were, however, text-only build paths that I could as references in my project. By using a google-sheets-api I was able to extract the information which would then be used as the guide alongside a more visual part where the user would have the ability to drag images corresponding to the guide to designated areas. This was done by using a plug-in called draggable and was built mainly on express.',
     githubLink: 'https://github.com/jamesledev/genshin-impact-site',
     link: 'https://genshin-impact-site.herokuapp.com/',
   },
