@@ -4,17 +4,17 @@ import Genshin from '../images/genshin.png';
 import Saigon from '../images/saigon.png';
 import ECommerce from '../images/ecommerce.png';
 import StickyNav from '../components/stickyNav';
-import GenshinWIP from '../images/genshinWIP.png';
+import UKHT from '../images/UKHT.png';
 
 const projectsArray = [
   {
-    name: 'Genshin Impact Project No. 2',
-    imgLocation: GenshinWIP,
-    briefDescription: 'Genshin Impact Planner on Next.js (Work In Progress) ',
+    name: 'UK Health Testing',
+    imgLocation: UKHT,
+    briefDescription:
+      'A custom built eCommerce site created on WordPress using WooCommerce ',
     description:
-      'This follows the exact same concept at the other genshin impact project except this time on Next.js.',
-    githubLink: 'https://github.com/jamesledev/genshin-impact-next-site',
-    link: 'https://genshin-impact-next-site.herokuapp.com/',
+      'At KP Studio I created and maintained a multi million pound eCommerce website. Focuessed mainly on travel testing there were a lot of specific funcationality which was needed.',
+    link: 'https://ukhealthtesting.com/',
   },
   {
     name: 'E-Commerce-Website',

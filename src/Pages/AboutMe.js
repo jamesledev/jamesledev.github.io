@@ -35,7 +35,7 @@ function About() {
               thing I can guarentee, its the speed at which I reply to emails
               at. <br />
               <br />
-              jamesle.mt@gmail.com
+              <a href="mailto:jamesle.mt@gmail.com">jamesle.mt@gmail.com</a>
               <a
                 href="https://instagram.com/ijamesle"
                 target="_blank"
