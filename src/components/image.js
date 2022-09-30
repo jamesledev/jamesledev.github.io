@@ -88,7 +88,7 @@ export default function Item(props) {
             {linkText}
             <br />
             <div>Any feedback would be amazing!</div>
-            <div>
+            <div className="paddingTop">
               {githubIcon}
               {linkIcon}
             </div>

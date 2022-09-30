@@ -236,3 +236,7 @@ a {
     width: 50px;
   }
 }
+
+.paddingTop {
+  margin-top: 15px;
+}

@@ -5,6 +5,8 @@ import Saigon from '../images/saigon.png';
 import ECommerce from '../images/ecommerce.png';
 import StickyNav from '../components/stickyNav';
 import UKHT from '../images/UKHT.png';
+import KP from '../images/kpstudio.png';
+import CircularOne from '../images/circular1.png';
 
 const projectsArray = [
   {
@@ -15,6 +17,23 @@ const projectsArray = [
     description:
       'At KP Studio I created and maintained a multi million pound eCommerce website. Focuessed mainly on travel testing there were a lot of specific funcationality which was needed.',
     link: 'https://ukhealthtesting.com/',
+  },
+  {
+    name: 'KP Studio',
+    imgLocation: KP,
+    briefDescription: 'A company portfolio website.',
+    description:
+      'A company portfolio website that I created to highlight recent work and display in a modern way.',
+    link: 'https://www.kpstudio.co.uk/',
+  },
+  {
+    name: 'Circular 1 Health',
+    imgLocation: CircularOne,
+    briefDescription:
+      'An eCommerce site created on WordPress using WooCommerce ',
+    description:
+      'At KP Studio I created custom WooCommerce functionality for a healh testing company.',
+    link: 'https://circular1.com/',
   },
   {
     name: 'E-Commerce-Website',
