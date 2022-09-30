@@ -34,7 +34,12 @@ export default function Item(props) {
       <div>Feel free to click onto the Github icon below to see the repo!</div>
     );
     githubIcon = (
-      <a href={githubLink} target="_blank" rel="noreferrer">
+      <a
+        class="paddingLittle"
+        href={githubLink}
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="githubModal" src={Github} alt="Github Link" />
       </a>
     );
@@ -47,7 +52,7 @@ export default function Item(props) {
       </div>
     );
     linkIcon = (
-      <a href={link} target="_blank" rel="noreferrer">
+      <a class="paddingLittle" href={link} target="_blank" rel="noreferrer">
         <img className="githubModal" src={webIcon} alt="Link" />
       </a>
     );

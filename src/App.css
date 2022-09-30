@@ -227,7 +227,7 @@ a {
     height: auto !important;
   }
   .logo {
-    width: 80px;
+    width: 60px;
   }
   .portfolioImage {
     width: 100%;
@@ -240,3 +240,7 @@ a {
 .paddingTop {
   margin-top: 15px;
 }
+
+.paddingLittle {
+  margin: 15px;
+} 

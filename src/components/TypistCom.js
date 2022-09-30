@@ -6,7 +6,7 @@ export default class TypingCom extends Component {
     return (
       <div className="blackText">
         <Typed
-          strings={["Hi I'm James", 'Welcome to my website!✌️']}
+          strings={["Hi I'm James", 'Welcome to my <br>website!✌️']}
           typeSpeed={40}
           backSpeed={50}
           loop
