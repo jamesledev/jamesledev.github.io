@@ -45,12 +45,6 @@ export default function Item(props) {
     );
   }
   if (link) {
-    linkText = (
-      <div>
-        Or to test the project click on the web icon. (As hosted on heroku it
-        may take time to load)
-      </div>
-    );
     linkIcon = (
       <a class="paddingLittle" href={link} target="_blank" rel="noreferrer">
         <img className="githubModal" src={webIcon} alt="Link" />
@@ -91,8 +85,6 @@ export default function Item(props) {
             <br />
             {gitHubText}
             {linkText}
-            <br />
-            <div>Any feedback would be amazing!</div>
             <div className="paddingTop">
               {githubIcon}
               {linkIcon}

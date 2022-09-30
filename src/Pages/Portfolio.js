@@ -15,7 +15,7 @@ const projectsArray = [
     briefDescription:
       'A custom built eCommerce site created on WordPress using WooCommerce ',
     description:
-      'At KP Studio I created and maintained a multi million pound eCommerce website. Focuessed mainly on travel testing there were a lot of specific funcationality which was needed.',
+      'At KP Studio I created and maintained a multi million pound eCommerce website. Focuessed mainly on travel testing there were a lot of specific funcationality which was needed and so the website is being constantly changed both visually and with functionality in the background.',
     link: 'https://ukhealthtesting.com/',
   },
   {
@@ -23,16 +23,15 @@ const projectsArray = [
     imgLocation: KP,
     briefDescription: 'A company portfolio website.',
     description:
-      'A company portfolio website that I created to highlight recent work and display in a modern way.',
+      'A company portfolio website that I created to highlight recent work and display in a modern way. Made primarily using HTML, Javascript and CSS.',
     link: 'https://www.kpstudio.co.uk/',
   },
   {
     name: 'Circular 1 Health',
     imgLocation: CircularOne,
-    briefDescription:
-      'An eCommerce site created on WordPress using WooCommerce ',
+    briefDescription: 'An eCommerce site on WordPress using WooCommerce ',
     description:
-      'At KP Studio I created custom WooCommerce functionality for a healh testing company.',
+      'Maintained and developed custom WooCommerce functionality for a healh testing company.',
     link: 'https://circular1.com/',
   },
   {
@@ -91,7 +90,10 @@ function Portfolio() {
       <StickyNav />
       <div className="portfolio">
         <h1 className="heading">Portfolio</h1>
-        <p>Click on the image to learn more.</p>
+        <p>
+          Click on the image below to learn more about the projects I've helped
+          develop or created.
+        </p>
         <div className="porfolioCentre">
           <div className="portfolioFlex">{listProjects}</div>
         </div>
